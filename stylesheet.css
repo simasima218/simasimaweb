@@ -1,0 +1,212 @@
+@charset "UTF-8";
+/* すべての要素のmarginとpaddingを0に設定します */
+* {
+  margin: 0;/* 要素の外側の余白を0にする */
+  padding: 0;/* 要素の内側の余白を0にする */
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;/* フォントを指定する */
+}
+
+/* 全てのh1 */
+
+h1 {
+  color: #000000;/* フォントの色を指定する */
+  font-size: 70px;/* フォントの大きさを指定する */
+  font-family:s;
+  text-align: center;/* 文字・画像を中央にそろえる */
+  background-image: url(img/frame.png);/* 背景画像を指定する */
+  height: 320px;/* 高さを指定する */
+  padding-top: 150px;
+  background-repeat: no-repeat;/* 背景画像の繰り返しを指定する */
+  background-position: top center;/* 背景画像の位置を指定する */
+}
+.font_test {
+    font-size:70px;
+    color:#0000ff;   
+}
+/* h2のclass title */
+
+.title {
+  font-size: 30px;
+  border-left-style: solid;/* 枠線のスタイルを指定する */
+  border-left-color: #000000;/* 枠線の色を指定する */
+  border-left-width: 10px;/* 枠線の幅を指定する */
+  padding-left: 15px;
+  margin-bottom: 50px;
+}
+
+
+/* headerはここ */
+
+header {
+  background-image: url('../img/main kai2.jpg');
+  height: 450px;
+  padding-top: 30px;
+}
+
+/* navはここ */
+
+nav {
+  background-color: #808080;/* 背景色を指定する */
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;/* 文字の装飾を指定する */
+}
+
+nav a:hover {
+  color: #808080;
+}
+
+ul {
+  list-style-type: none;/* リストのマーカーを指定する */
+  padding-left: 0;
+}
+
+nav ul {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-align: center;
+}
+
+nav li {
+  display: inline-block;/* 要素の表示形式を指定する */
+  margin-right: 40px;
+}
+
+/* sectionのclass shop */
+
+.linestamp {
+  background-color: #ffffff;
+  color: #000000;
+  padding: 30px;
+}
+
+.linestamp p {
+  font-size: 20px;
+  background-color: #ffffff;
+  padding: 20px;
+  height: 300px;
+  border-radius: 30px;/* 枠線の角丸を指定する */
+}
+
+.linestamp img {
+  float: right;/* 要素の回り込みを指定する */
+}
+
+/* sectionのclass photo */
+
+.photo {
+  padding: 30px;
+  background-image: url(img/wood.jpg);
+}
+
+.photo h2 {
+  color: #ffffff;
+  border-color: #000000;
+}
+
+.photo p {
+  color: #ffffff;
+  clear: left;/* 要素の回り込みを解除する */
+  margin: 20px;
+}
+
+.big {
+  background-color: #ffffff;
+  width: 470px;/* 幅を指定する */
+  padding: 15px;
+  margin: 20px;
+  box-shadow: 10px 10px 20px #000000;/* 影を指定する */
+  float: left;
+  transform: rotate(-5deg);/* 要素の回転を指定する */
+}
+
+.small {
+  background-color: #ffffff;
+  width: 210px;
+  padding: 15px;
+  margin: 20px;
+  box-shadow: 10px 10px 20px #000000;
+}
+
+.box {
+  float: left;
+}
+
+/* sectionのclass price */
+
+.lineup {
+  padding: 30px;
+    background-size: cover;
+    background-image: url('../img/main2.png');
+}
+
+.lineup h2 {
+  color: #ffffff;
+  border-left: 10px solid #000000;
+}
+
+.lineup table {
+  background: #ffffff;
+  width: 100%;
+  border-collapse: separate;/* 表の罫線を指定する */
+  border-spacing: 0;/* 表の罫線の隙間を指定する */
+}
+
+.lineup td {
+  border: 1px solid #000000;
+  padding: 10px;
+}
+
+.lineup th {
+  border: 1px solid #000000;
+  padding: 10px;
+  text-align: left;
+  background: #808080;
+}
+.recommended{padding:30px;}
+.season th {
+  background: #3dc;
+    background-image: url(img/bg_minira.jpg);
+}
+
+/* sectionのclass access */
+
+.mail {
+  background: #ffffff;
+  color: #000000;
+  padding: 30px;
+  height: 400px;
+}
+
+.mail h3 {
+  font-size: 50px;
+  font-family:;
+  margin-top: 0;
+}
+
+.mail div {
+  width: 50%;
+  float: left;
+}
+
+/* footerはここ */
+
+footer {
+  text-align: center;
+  color: #ffffff;
+  background: #808080;
+}
+
+.sns{
+    padding:30px;
+}
